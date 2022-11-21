@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Reddit News</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_get_news">Get Reddit news!</string>
 </resources>
