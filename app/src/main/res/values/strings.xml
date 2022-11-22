@@ -2,4 +2,7 @@
     <string name="app_name">Reddit News</string>
     <string name="welcome">Welcome</string>
     <string name="btn_get_news">Get Reddit news!</string>
+    <string name="author_name">Author name</string>
+    <string name="created_hours_ago">Created hours ago</string>
+    <string name="number_of_comments">Number of comments</string>
 </resources>

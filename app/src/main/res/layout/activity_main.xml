@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
 
     <TextView
         android:id="@+id/welcome_text"
@@ -25,15 +28,13 @@
         android:text="@string/btn_get_news"
         android:textColor="@color/green" />
 
-
-    <TextView
-        android:id="@+id/result_text"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/btn_get_news"
-        android:layout_marginTop="20sp"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        app:layoutManager="LinearLayoutManager"
+        />
+
 
 </RelativeLayout>
